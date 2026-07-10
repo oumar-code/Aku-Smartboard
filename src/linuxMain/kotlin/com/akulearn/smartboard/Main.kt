@@ -24,7 +24,7 @@ fun main() {
             "home" -> app.navigateTo(SmartboardScreen.HOME)
             "classes" -> app.navigateTo(SmartboardScreen.CLASSES)
             "settings" -> app.navigateTo(SmartboardScreen.SETTINGS)
-            "status" -> {}
+            "status" -> println("SmartBoard is running.")
             "quit", "exit" -> {
                 println("Shutting down Aku SmartBoard.")
                 return

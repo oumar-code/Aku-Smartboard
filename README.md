@@ -15,7 +15,7 @@ Aku-Smartboard is a Kotlin Multiplatform (Kotlin/Native linuxX64) Smart TV class
 
 This produces a native binary at:
 
-`/home/runner/work/Aku-Smartboard/Aku-Smartboard/build/bin/linuxX64/releaseExecutable/akulearn-smartboard.kexe`
+`build/bin/linuxX64/releaseExecutable/akulearn-smartboard.kexe`
 
 ## Run locally
 
@@ -32,7 +32,7 @@ HUB_URL=http://hub.local:8000 LOG_LEVEL=INFO DISPLAY=:0 XAUTHORITY=/home/aku/.Xa
 
 Packaged binary output:
 
-`/home/runner/work/Aku-Smartboard/Aku-Smartboard/build/packaging/usr/local/bin/akulearn-smartboard`
+`build/packaging/usr/local/bin/akulearn-smartboard`
 
 ## Install on target device
 
